@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/register.css">
+    
+    <title>Register</title>
+</head>
+
+<body>
+   
+    <div class="container">
+
+        <div class="title">
+            <h3>Register to find your programming partner</h3>
+        </div>
+        <div class="flex-container">
+
+
+            <div class="form-container">
+                <form action="/php/register.php" method="post">
+                    <label for="uname">Name:</label>
+                    <input type="text" name="name" id="uname" required>
+
+                    <label for="uemail">Email:</label>
+                    <input type="email" name="email" id="uemail" required>
+
+                    <label for="uloc">Location:</label>
+                    <input type="text" name="loc" id="uloc" required>
+
+                    <label for="uloc">Looking for: </label>
+                    <input type="text" name="look" id="ulook" required>
+
+                    <label for="utech">Technologies</label>
+                    <input type="text" name="tech" id="utech" required>
+
+                    <input class="btn" type="submit" value="Submit">
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
